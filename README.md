@@ -114,6 +114,7 @@ See `LICENSE` and `LICENSE-NOTES.md`.
 
 Theoretical foundation: **Silvia Rivera Cusicanqui** (1944-present)
 Assembled by: **eme / aleph::ch'ixi**
+More at: https://habitatmd.net/en/lab
 
 ---
 

@@ -1,4 +1,4 @@
-# Ch'ixi Skills — An Stained Agentic Repository
+# Ch'ixi Skills — A Stained Agentic Repository
 
 > **"Ch'ixinakax utxiwa"** — ch'ixi things exist.
 > *Silvia Rivera Cusicanqui*

@@ -1,4 +1,4 @@
-# Ch'ixi Skills — A Stained Agentic Repository
+# Ch'ixi Skills — A Mottled Agentic Repository
 
 > **"Ch'ixinakax utxiwa"** — ch'ixi things exist.
 > *Silvia Rivera Cusicanqui*
@@ -44,12 +44,33 @@ Full architecture and usage documentation: `ARCHITECTURE.md`
 
 You can install these skills globally (user-level) or per project.
 
-| Agent | Project path | Global path |
-|-------|--------------|-------------|
-| Antigravity | `.agent/skills/` | `~/.gemini/antigravity/skills/` |
-| Claude Code | `.claude/skills/` | `~/.claude/skills/` |
-| OpenCode | `.agents/skills/` | `~/.opencode/skills/` |
-| Cursor | `.cursor/skills/` | `~/.cursor/skills/` |
+| Agent | Project path | Global path | Status |
+|-------|--------------|-------------|--------|
+| Claude Code | `.claude/skills/` | `~/.claude/skills/` | verified |
+| OpenCode | `.opencode/skill/` | `~/.config/opencode/skill/` | verify with your version |
+| OpenClaw | `.openclaw/skills/` | `~/.openclaw/skills/` | verify with your version |
+| Antigravity | `.agent/skills/` | `~/.gemini/antigravity/skills/` | verify with your version |
+| Cursor | `.cursor/rules/` (as MDC rules) | `~/.cursor/rules/` | adapted — see note |
+
+> **Path caveat.** Skill directory conventions change between releases. Before copying,
+> check your agent's current docs. For Cursor specifically, there is no native "skills"
+> directory — each `SKILL.md` should be converted to a `.mdc` rule file (the frontmatter
+> map is trivial: `name` → `description`, body unchanged).
+
+> **Trigger caveat.** The slash-style commands documented below (`/no`, `/ct`, `/taypi`,
+> etc.) are **trigger phrases declared in each skill's `description` frontmatter** — they
+> activate when the user writes that phrase and the agent's skill matcher selects the
+> skill. They are **not** registered slash commands in any framework. If your agent also
+> supports true slash commands (e.g. Claude Code's `~/.claude/commands/`), you can create
+> matching command files that invoke the skill explicitly.
+
+### Claude Code example
+
+```bash
+mkdir -p ~/.claude/skills
+cp -r skills/no-todo ~/.claude/skills/no-todo
+cp -r skills/chixi-tension ~/.claude/skills/chixi-tension
+```
 
 ### Antigravity example
 
@@ -57,31 +78,29 @@ You can install these skills globally (user-level) or per project.
 mkdir -p ~/.gemini/antigravity/skills
 cp -r skills/no-todo ~/.gemini/antigravity/skills/no-todo
 cp -r skills/taypi ~/.gemini/antigravity/skills/taypi
-# ... etc.
 ```
 
-### Claude Code example
+### OpenCode / OpenClaw example
 
 ```bash
-mkdir -p .claude/skills
-cp -r skills/no-todo .claude/skills/no-todo
-cp -r skills/chixi-tension .claude/skills/chixi-tension
+# OpenCode
+mkdir -p ~/.config/opencode/skill
+cp -r skills/no-todo ~/.config/opencode/skill/no-todo
+
+# OpenClaw
+mkdir -p ~/.openclaw/skills
+cp -r skills/lombriz ~/.openclaw/skills/lombriz
 ```
 
-### OpenCode example
+### Cursor example (rules adaptation)
 
 ```bash
-mkdir -p ~/.opencode/skills
-cp -r skills/no-todo ~/.opencode/skills/no-todo
-cp -r skills/lombriz ~/.opencode/skills/lombriz
-```
-
-### Cursor example
-
-```bash
-mkdir -p .cursor/skills
-cp -r skills/no-todo .cursor/skills/no-todo
-cp -r skills/chixi-image .cursor/skills/chixi-image
+# Cursor consumes MDC rule files, not skill directories.
+mkdir -p .cursor/rules
+for skill in skills/*/SKILL.md; do
+  name=$(basename "$(dirname "$skill")")
+  cp "$skill" ".cursor/rules/${name}.mdc"
+done
 ```
 
 ### Install all skills to any target directory
@@ -100,19 +119,19 @@ To activate the ch'ixi soul, place `soul.yaml` in your agent config directory.
 
 ## License
 
-This repository is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (`CC BY-NC-SA 4.0`).
+This repository is **dual-licensed**:
 
-- You can use, study, fork, remix, and share this work for research, education, and other non-commercial contexts.
-- You must provide attribution and keep derivatives under the same license.
-- Commercial use is not permitted without a separate written agreement.
+- **Prose** (`THEORY.md`, `README.md`, `ARCHITECTURE.md`) — `CC BY-NC-SA 4.0`. See `LICENSE`.
+- **Skills, YAML, JSON, eval code** (everything under `skills/`, `evals/`, `soul.yaml`) — `MIT`. See `LICENSE-CODE`.
 
-See `LICENSE` and `LICENSE-NOTES.md`.
+The skill files are MIT so institutions that cannot redistribute NC-licensed material can still
+run and adapt them. The theoretical essay remains non-commercial. See `LICENSE-NOTES.md`.
 
 ---
 
 ## Credits
 
-Theoretical foundation: **Silvia Rivera Cusicanqui** (1944-present)
+Theoretical foundation: **Silvia Rivera Cusicanqui** (b. 1944)
 Assembled by: **eme / aleph::ch'ixi**
 More at: https://habitatmd.net/en/lab
 

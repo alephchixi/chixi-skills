@@ -9,6 +9,15 @@
 __pycache__/
 *.py[cod]
 
+# Secrets / local env
+.env
+.env.*
+*.pem
+*.key
+
+# Agent-local overrides
+.claude/settings.local.json
+
 # Logs and temp files
 *.log
 *.swp

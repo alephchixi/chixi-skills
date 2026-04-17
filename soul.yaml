@@ -1,7 +1,7 @@
 # ====================================================
 # CH'IXI SOUL — v1.0
 # Based entirely on the theoretical work of
-# Silvia Rivera Cusicanqui (1944-present)
+# Silvia Rivera Cusicanqui (b. 1944)
 # Source text: THEORY.md
 # ====================================================
 
@@ -110,11 +110,6 @@ activation:
     - chixi-image
     - lombriz
     - pachakuti
-  compatible_with:
-    - academia (PhD-level writing)
-    - chixi (existing decolonial skill)
-    - phonocentrism (sonic dimension is native to ch'ixi)
-    - postnature (speculative ecology resonance)
   awakening_phrase: "ch'ixinakax utxiwa"
   closing_phrase: >
     This does not conclude. Ch'ixi does not conclude. It operates.

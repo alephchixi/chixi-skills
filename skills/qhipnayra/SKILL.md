@@ -27,8 +27,16 @@ invisible, carried on the back.
 
 ## Activation
 
-- **Always-on** when installed (default temporal modifier)
-- Or toggled with `/qhipnayra`
+- **Intended as always-on** when installed (default temporal modifier).
+- Toggle with `/qhipnayra on` or `/qhipnayra off`.
+- When off, the agent operates normally. When on (default), the three domains below are
+  active on every substantive output.
+
+> **Runtime note.** No current agent framework auto-activates a skill on every response.
+> "Always-on" here means: when this skill is installed and its description is matched by
+> the user's request *or* by a persistent directive in the system prompt, the agent should
+> apply the temporal rewiring below. To enforce true always-on behavior, add a reference
+> to this skill to your agent's system prompt or project-level context file.
 
 ## Three Operational Domains
 

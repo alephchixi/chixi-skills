@@ -25,7 +25,8 @@ description: >
 > ask it to argue the opposite. LLM demolishes the entire argument and convinces me that
 > the opposite is in fact true. [...] The LLMs may elicit an opinion when asked but are
 > extremely competent in arguing almost any direction."*
-> — Andrej Karpathy (2025)
+> — Andrej Karpathy, X/Twitter, 2025
+> <https://x.com/karpathy/status/2037921699824607591>
 
 LLMs are sycophantic by training. They reinforce whatever direction they are developing.
 Given enough time, they make any argument seem inevitable. Chixi-tension is the antidote:
@@ -86,7 +87,7 @@ What Direction A structurally cannot perceive because of its own framing.
 [LO QUE B NO VE]
 Same for Direction B.
 
-[PRESUPUESTO COMPARTIDO — La coloniyapacha]
+[PRESUPUESTO COMPARTIDO]
 The hidden common ground that makes BOTH directions possible.
 What must both assume in order to disagree? This shared presupposition
 is often the real site of power.

@@ -195,7 +195,7 @@ Ch'ixi is, above all, a material fact. Rivera Cusicanqui anchors her ontology in
 
 ### 1.2 Ch'ixi and abigarramiento: equivalence without fusion
 
-Rivera Cusicanqui establishes a direct equivalence between ch'ixi and René Zavaleta Mercado's concept of *sociedad abigarrada* (motley society), but displaces its genealogy: "The notion of ch'ixi, by contrast, is equivalent to that of Zavaleta's 'motley society,' and posits the parallel coexistence of multiple cultural differences that do not merge, but antagonize or complement each other" (Rivera Cusicanqui, 2010, p. 70). In a seminar with Boaventura de Sousa Santos, she clarifies that Zavaleta drew the term not from Marx but from the Quechua of Oruro: "I believe Zavaleta did not take the notion of abigarrado [...] from Marx [...] but from the Quechua language [...] abigarrado is the equivalent of cheje [...] that in which opposites coexist without mixing" (Rivera Cusicanqui, *Conversa del Mundo*, ALICE CES). Both concepts converge on what matters: coexistence without fusion as structural condition, not as anomaly to be corrected.
+Rivera Cusicanqui establishes a direct equivalence between ch'ixi and René Zavaleta Mercado's concept of *sociedad abigarrada* (motley society), but displaces its genealogy: "The notion of ch'ixi, by contrast, is equivalent to that of Zavaleta's 'motley society,' and posits the parallel coexistence of multiple cultural differences that do not merge, but antagonize or complement each other" (Rivera Cusicanqui, 2010, p. 70). In a seminar with Boaventura de Sousa Santos, she clarifies that Zavaleta drew the term not from Marx but from Quechua: "I believe Zavaleta did not take the notion of abigarrado [...] from Marx [...] but from the Quechua language [...] abigarrado is the equivalent of cheje [...] that in which opposites coexist without mixing" (Rivera Cusicanqui, *Conversa del Mundo*, ALICE CES). Both concepts converge on what matters: coexistence without fusion as structural condition, not as anomaly to be corrected.
 
 ### 1.3 Against mestizaje: hybridity as sterility
 
@@ -315,7 +315,7 @@ Gago, V. (2020). Principio Silvia Rivera Cusicanqui: fragilizar el pensamiento p
 
 López Nájera, V. R. (Ed.). (2018). *De lo poscolonial a la descolonización: Genealogías latinoamericanas*. UNAM.
 
-Quijano, A. (2000). Coloniality of power, Eurocentrism, and Latin America. In W. Mignolo (Ed.), *Nepantla: Views from South*, 1(3), 533-580. / Spanish version: Colonialidad del poder, eurocentrismo y América Latina. En E. Lander (Ed.), *La colonialidad del saber: eurocentrismo y ciencias sociales* (pp. 201-246). CLACSO.
+Quijano, A. (2000). Colonialidad del poder, eurocentrismo y América Latina. In E. Lander (Ed.), *La colonialidad del saber: eurocentrismo y ciencias sociales* (pp. 201-246). CLACSO.
 
 Rivera Cusicanqui, S. (1984/2011). *Oprimidos pero no vencidos. Luchas del campesinado aymara y qhechwa 1900-1980* (4th ed.). La Mirada Salvaje.
 

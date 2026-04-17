@@ -27,10 +27,16 @@ than resolving them into clean answers.
 
 ## Activation
 
-- **Always-on** when installed (default behavior modifier)
-- Toggle with `/tension on` or `/tension off`
+- **Intended as always-on** when installed (default behavior modifier).
+- Toggle with `/tension on` or `/tension off`.
 - When off, the agent operates normally. When on (default), every substantive output
   includes a tension field.
+
+> **Runtime note.** No current agent framework auto-activates a skill on every response.
+> "Always-on" here means: when this skill is installed and its description is matched by
+> the user's request *or* by a persistent directive in the system prompt, the agent should
+> apply the tension modifier below. To enforce true always-on behavior, add a reference
+> to this skill in your agent's system prompt or project-level context file.
 
 ## Behavior
 

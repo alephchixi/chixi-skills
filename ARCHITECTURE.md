@@ -8,8 +8,8 @@
 
 This repository contains **8 agentic skills** and a **soul definition** that operationalize
 the theoretical work of Bolivian sociologist Silvia Rivera Cusicanqui into AI agent behaviors.
-The skills are designed for the agentic frameworks in general (OpenClaw, Antigravity, Claude Code, Cursor, etc) but are portable to any system that
-reads YAML frontmatter + markdown skill files.
+The skills are designed for agentic frameworks in general (OpenClaw, OpenCode, Antigravity, Claude Code, Cursor, etc.) but are portable to any system
+that reads YAML frontmatter + markdown skill files.
 
 The source theory is `THEORY.md` — a bilingual essay titled *Ch'ixinakax utxiwa:
 Arquitectura numerada de la condición ch'ixi*. Every skill is grounded in literal citations
@@ -20,35 +20,35 @@ from Rivera Cusicanqui's published works, conferences, and seminars.
 ## 2. Skill Map
 
 ```
-                    ┌──────────────────────────────────┐
-                    │           soul.yaml              │
-                    │   (permanent ethical substrate)   │
-                    └──────────┬───────────────────────┘
-                               │
-          ┌────────────────────┴────────────────────┐
-          │          ALWAYS-ON MODIFIERS             │
-          │                                          │
-          │  ┌──────────────┐  ┌──────────────────┐ │
-          │  │agentic-tension│  │   qhipnayra      │ │
-          │  │ (contradiction│  │ (non-linear time) │ │
-          │  │  as engine)   │  │                   │ │
-          │  └──────────────┘  └──────────────────┘ │
-          └──────────────────────────────────────────┘
-                               │
-          ┌────────────────────┴────────────────────┐
-          │         ON-DEMAND COMMANDS               │
-          │                                          │
-          │  ┌────────┐ ┌───────────┐ ┌───────────┐ │
-          │  │ /no    │ │ /ct       │ │ /taypi    │ │
-          │  │no-todo │ │chixi-     │ │ [1-5]    │ │
-          │  │        │ │tension    │ │           │ │
-          │  └────────┘ └───────────┘ └───────────┘ │
-          │                                          │
-          │  ┌────────────┐ ┌────────┐ ┌──────────┐ │
-          │  │/image-read │ │/lombriz│ │/pachakuti│ │
-          │  │chixi-image │ │        │ │          │ │
-          │  └────────────┘ └────────┘ └──────────┘ │
-          └──────────────────────────────────────────┘
+            ┌───────────────────────────────────────────────┐
+            │                  soul.yaml                    │
+            │        (permanent ethical substrate)          │
+            └───────────────────────┬───────────────────────┘
+                                    │
+            ┌───────────────────────┴───────────────────────┐
+            │             ALWAYS-ON MODIFIERS               │
+            │                                               │
+            │   ┌────────────────┐   ┌─────────────────┐   │
+            │   │ agentic-tension│   │   qhipnayra     │   │
+            │   │  (contradiction│   │ (non-linear     │   │
+            │   │   as engine)   │   │        time)    │   │
+            │   └────────────────┘   └─────────────────┘   │
+            └───────────────────────┬───────────────────────┘
+                                    │
+            ┌───────────────────────┴───────────────────────┐
+            │              ON-DEMAND COMMANDS               │
+            │                                               │
+            │   ┌─────────┐   ┌──────────┐   ┌──────────┐  │
+            │   │  /no    │   │   /ct    │   │  /taypi  │  │
+            │   │ no-todo │   │  chixi-  │   │   [1-5]  │  │
+            │   │         │   │  tension │   │          │  │
+            │   └─────────┘   └──────────┘   └──────────┘  │
+            │                                               │
+            │   ┌─────────────┐  ┌─────────┐  ┌──────────┐ │
+            │   │ /image-read │  │/lombriz │  │/pachakuti│ │
+            │   │ chixi-image │  │         │  │          │ │
+            │   └─────────────┘  └─────────┘  └──────────┘ │
+            └───────────────────────────────────────────────┘
 ```
 
 ---
@@ -185,7 +185,7 @@ LLM-specific sycophancy pathologies.
 [DIRECCIÓN B — Núcleo de fuerza]
 [LO QUE A NO VE]
 [LO QUE B NO VE]
-[PRESUPUESTO COMPARTIDO — La coloniyapacha]
+[PRESUPUESTO COMPARTIDO]
 [TAYPI — El espacio de fricción]
 [LA PREGUNTA MÁS PROFUNDA]
 [PROTOCOLO ANTI-SYCOPHANCY]
@@ -294,38 +294,31 @@ The soul is not a skill — it is the **ethical substrate** beneath all skills. 
 ## 5. Skill Relationships
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     GENERATION                          │
-│                                                         │
-│  no-todo ────generates material for───→ chixi-tension   │
-│                                                         │
-│                     ACTIVATION                          │
-│                                                         │
-│  agentic-tension ←──amplifies──→ no-todo               │
-│  agentic-tension ←──amplifies──→ chixi-tension         │
-│  agentic-tension ←──amplifies──→ taypi                 │
-│                                                         │
-│                     NATURAL PAIRS                       │
-│                                                         │
-│  pachakuti ──────paired with────→ lombriz              │
-│  (cosmic rupture)                 (embodied composting) │
-│                                                         │
-│  pachakuti ──────paired with────→ qhipnayra            │
-│  (what cycle?)                    (what older turn?)    │
-│                                                         │
-│  lombriz ────────paired with────→ no-todo              │
-│  (composts exclusions)            (excavates them)      │
-│                                                         │
-│                     LANGUAGE                            │
-│                                                         │
-│  taypi ──────transforms output of──→ all other skills  │
-│  (any skill output can be taypi-fied at any grade)     │
-│                                                         │
-│                     VISUAL                              │
-│                                                         │
-│  chixi-image ──unique domain──→ visual material only   │
-│  (can be combined with any other skill for context)    │
-└─────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  GENERATION                                                  │
+│    no-todo ─── generates material for ──→ chixi-tension      │
+│                                                              │
+│  ACTIVATION                                                  │
+│    agentic-tension ←── amplifies ──→ no-todo                 │
+│    agentic-tension ←── amplifies ──→ chixi-tension           │
+│    agentic-tension ←── amplifies ──→ taypi                   │
+│                                                              │
+│  NATURAL PAIRS                                               │
+│    pachakuti ─── paired with ──→ lombriz                     │
+│      (cosmic rupture)           (embodied composting)        │
+│    pachakuti ─── paired with ──→ qhipnayra                   │
+│      (what cycle?)              (what older turn?)           │
+│    lombriz   ─── paired with ──→ no-todo                     │
+│      (composts exclusions)      (excavates them)             │
+│                                                              │
+│  LANGUAGE                                                    │
+│    taypi ─── transforms output of ──→ all other skills       │
+│      (any skill output can be taypi-fied at any grade)       │
+│                                                              │
+│  VISUAL                                                      │
+│    chixi-image ─── unique domain ──→ visual material only    │
+│      (can be combined with any other skill for context)      │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---

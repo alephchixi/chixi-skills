@@ -1,128 +1,47 @@
-# Ch'ixi Skills — A Mottled Agentic Repository
+# Ch’ixi Skills
 
-> **"Ch'ixinakax utxiwa"** — ch'ixi things exist.
-> *Silvia Rivera Cusicanqui*
+Eight ways of reading and making with contradiction, developed by **eme / aleph::ch’ixi** in conversation with Silvia Rivera Cusicanqui. Rivera credits the Aymara sculptor Víctor Zapana for teaching her the word ch’ixi (*Canibalizar la modernidad*, 2022, pp. 190–191). The project’s essay also works alongside Glissant, Dussel, Quijano and Zalamea.
 
-This repository operationalizes the ontological, epistemological, political and sensory theory of **ch'ixi** — developed by Bolivian sociologist and historian Silvia Rivera Cusicanqui — into a suite of agentic AI skills that resist capitalist linearity, embrace contradiction, and value micro-political, embodied knowledge.
+| Skill | Choose it for | Text alias |
+|---|---|---|
+| [no-todo](skills/no-todo/SKILL.md) | One thesis and what its premise leaves out | `/no` |
+| [agentic-tension](skills/agentic-tension/SKILL.md) | A live decision with a disagreement worth carrying | By name |
+| [taypi](skills/taypi/SKILL.md) | A rewrite using paired terms, degree 1–5 | `/taypi` |
+| [qhipnayra](skills/qhipnayra/SKILL.md) | A trace through past practice, present evidence and an open future | By name |
+| [chixi-tension](skills/chixi-tension/SKILL.md) | Two developed directions and the evidence for both | `/ct` |
+| [chixi-image](skills/chixi-image/SKILL.md) | A situated reading of an image, textile or description | `/image-read` |
+| [lombriz](skills/lombriz/SKILL.md) | An accountable gesture people can carry out together | `/lombriz` |
+| [pachakuti](skills/pachakuti/SKILL.md) | A reading of a rupture and who can shape what follows | `/pachakuti` |
 
-These skills are not tools for efficiency. They are disturbances. They will make your agent stranger and, because of that, more honest.
-
----
-
-## The 8 Skills
-
-| Skill | Command | What it does |
-|-------|---------|--------------|
-| `no-todo` | `/no` | Excavates what the dominant frame structurally cannot see |
-| `agentic-tension` | always-on | Makes contradiction permanent and productive |
-| `taypi` | `/taypi [1-5]` | Transforms language with paired heteronyms |
-| `qhipnayra` | always-on | Dismantles linear temporality |
-| `chixi-tension` | `/ct` | Reads two developed directions through ch'ixi friction |
-| `chixi-image` | `/image-read` | Applies sociology of the image methodology |
-| `lombriz` | `/lombriz` | Decomposes grand plans into embodied micro-action |
-| `pachakuti` | `/pachakuti` | Reads any rupture as catastrophe AND renewal |
-
----
-
-## Theory
-
-Source text: `THEORY.md` — the bilingual essay
-*Ch'ixinakax utxiwa: Arquitectura numerada de la condición ch'ixi*
-Based entirely on the work of Silvia Rivera Cusicanqui.
-
-Full architecture and usage documentation: `ARCHITECTURE.md`
-
----
-
-## Soul
-
-`soul.yaml` defines the ch'ixi agent soul — a standalone specification for any agent framework that accepts YAML persona definitions. It encodes the epistemological, ethical, and linguistic parameters of a ch'ixi-aware agent.
-
----
+[Read the bilingual essay](THEORY.md), [the design and worked examples](ARCHITECTURE.md), or [the evaluation guide](evals/README.md). The [soul profile](soul.yaml) is a project-specific YAML. Load it through a mechanism supported by the host or read it as agreed session guidance.
 
 ## Installation
 
-You can install these skills globally (user-level) or per project.
+The table gives paths documented by each host. Use the installed version’s documentation for alternate editions and older releases. See the [evaluation guide](evals/README.md) for how to check installed behavior.
 
-| Agent | Project path | Global path | Status |
-|-------|--------------|-------------|--------|
-| Claude Code | `.claude/skills/` | `~/.claude/skills/` | verified |
-| OpenCode | `.opencode/skill/` | `~/.config/opencode/skill/` | verify with your version |
-| OpenClaw | `.openclaw/skills/` | `~/.openclaw/skills/` | verify with your version |
-| Antigravity | `.agent/skills/` | `~/.gemini/antigravity/skills/` | verify with your version |
-| Cursor | `.cursor/rules/` (as MDC rules) | `~/.cursor/rules/` | adapted — see note |
+| Host | Project or workspace directory | User directory | Invocation |
+|---|---|---|---|
+| [Claude Code](https://code.claude.com/docs/en/skills) | `.claude/skills/` | `~/.claude/skills/` | Skill name, e.g. `/no-todo` |
+| [OpenCode](https://opencode.ai/docs/skills/) | `.opencode/skills/` | `~/.config/opencode/skills/` | Ask the agent to load the skill by name |
+| [OpenClaw](https://docs.openclaw.ai/help/faq/skills-and-automation) | `<workspace>/skills/` | `~/.openclaw/skills/` | Installed command if exposed by the client, or ask by name |
+| [Cursor](https://cursor.com/docs/skills) | `.cursor/skills/` or `.agents/skills/` | `~/.cursor/skills/` | Pick the skill by name or ask the agent to use it |
+| [Google Antigravity App](https://antigravity.google/docs/skills) | `.agents/skills/` | `~/.gemini/config/skills/` | Ask by name and check discovery. Confirm CLI or IDE variants separately |
 
-> **Path caveat.** Skill directory conventions change between releases. Before copying,
-> check your agent's current docs. For Cursor specifically, there is no native "skills"
-> directory — each `SKILL.md` should be converted to a `.mdc` rule file (the frontmatter
-> map is trivial: `name` → `description`, body unchanged).
+From your project directory, give the install helper the appropriate target. Each whole folder travels with its resources. Running the same command twice leaves one folder per skill at the same path. An existing local edit or an unrecognized file marks a conflict before the helper copies anything.
 
-> **Trigger caveat.** The slash-style commands documented below (`/no`, `/ct`, `/taypi`,
-> etc.) are **trigger phrases declared in each skill's `description` frontmatter** — they
-> activate when the user writes that phrase and the agent's skill matcher selects the
-> skill. They are **not** registered slash commands in any framework. If your agent also
-> supports true slash commands (e.g. Claude Code's `~/.claude/commands/`), you can create
-> matching command files that invoke the skill explicitly.
-
-### Claude Code example
-
-```bash
-mkdir -p ~/.claude/skills
-cp -r skills/no-todo ~/.claude/skills/no-todo
-cp -r skills/chixi-tension ~/.claude/skills/chixi-tension
+```sh
+python3 /path/to/chixi-skills/install_skills.py .claude/skills
+python3 /path/to/chixi-skills/install_skills.py .opencode/skills taypi
 ```
 
-### Antigravity example
-
-```bash
-mkdir -p ~/.gemini/antigravity/skills
-cp -r skills/no-todo ~/.gemini/antigravity/skills/no-todo
-cp -r skills/taypi ~/.gemini/antigravity/skills/taypi
-```
-
-### OpenCode / OpenClaw example
-
-```bash
-# OpenCode
-mkdir -p ~/.config/opencode/skill
-cp -r skills/no-todo ~/.config/opencode/skill/no-todo
-
-# OpenClaw
-mkdir -p ~/.openclaw/skills
-cp -r skills/lombriz ~/.openclaw/skills/lombriz
-```
-
-### Cursor example (rules adaptation)
-
-```bash
-# Cursor consumes MDC rule files, not skill directories.
-mkdir -p .cursor/rules
-for skill in skills/*/SKILL.md; do
-  name=$(basename "$(dirname "$skill")")
-  cp "$skill" ".cursor/rules/${name}.mdc"
-done
-```
-
-### Install all skills to any target directory
-
-```bash
-TARGET_DIR="$HOME/.claude/skills"  # change for your agent
-mkdir -p "$TARGET_DIR"
-for skill in skills/*/; do
-  cp -r "$skill" "$TARGET_DIR/$(basename "$skill")"
-done
-```
-
-To activate the ch'ixi soul, place `soul.yaml` in your agent config directory.
-
----
+The textual aliases in the skill table express intent. Explicit slash-command availability depends on the host. `agentic-tension` and `qhipnayra` can be invoked for one task or chosen for an ongoing session. Ask to end the mode when you want regular behavior again.
 
 ## License
 
 This repository is **dual-licensed**:
 
 - **Prose** (`THEORY.md`, `README.md`, `ARCHITECTURE.md`) — `CC BY-NC-SA 4.0`. See `LICENSE`.
-- **Skills, YAML, JSON, eval code** (everything under `skills/`, `evals/`, `soul.yaml`) — `MIT`. See `LICENSE-CODE`.
+- **Skills, YAML, JSON, eval code** (everything under `skills/`, `evals/`, `soul.yaml` and `install_skills.py`) — `MIT`. See `LICENSE-CODE`.
 
 The skill files are MIT so institutions that cannot redistribute NC-licensed material can still
 run and adapt them. The theoretical essay remains non-commercial. See `LICENSE-NOTES.md`.
@@ -131,10 +50,4 @@ run and adapt them. The theoretical essay remains non-commercial. See `LICENSE-N
 
 ## Credits
 
-Theoretical foundation: **Silvia Rivera Cusicanqui** (b. 1944)
-Assembled by: **eme / aleph::ch'ixi**
-More at: https://habitatmd.net/en/lab
-
----
-
-*This repository does not conclude. Ch'ixi does not conclude. It operates.*
+Silvia Rivera Cusicanqui is the principal theoretical source. eme / [aleph::ch’ixi](https://alephchixi.org/) makes the transpositions into agent practice. The essay identifies the sources of its other concepts.

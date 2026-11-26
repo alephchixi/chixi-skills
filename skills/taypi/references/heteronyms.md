@@ -1,47 +1,40 @@
-# Heterónimos Pareados — Ch'ixi Reference Table
+# Heterónimos pareados
 
-## From Rivera Cusicanqui's Texts
+## Palabras atestiguadas y pares de trabajo
 
-| Pair (Aymara/Qhechumara) | Spanish | English | Domain |
-|--------------------------|---------|---------|--------|
-| takiy-thakhi | canto-camino | song-road | sound / territory |
-| chhixi-ch'ixi | aguanoso-jaspeado | watery-mottled | ontology / phonetics |
-| nayra-qhipha | delante-detrás | ahead-behind | temporality |
-| nayrapacha-qhipnayra | pasado delante-futuro detrás | past-ahead / future-behind | time |
-| kupi-chiqa | estatal/masculino-terrestre/femenino | state-masculine / earth-feminine | cosmology |
-| taypi-kuti | encuentro-vuelco | encounter-overturn | space-event |
-| catástrofe-renovación | catástrofe-renovación | catastrophe-renewal | history / cycle |
+| Forma | Procedencia | Uso editorial |
+|---|---|---|
+| `takiy-thakhi` | Rivera Cusicanqui, *Sociología de la imagen*, Pensamiento TEA, 2023, p. 247, «Principio Potosí Reverso» | Canto–camino (*song–road*) en qhechumara. Es la fila verificada como heterónimo pareado. |
+| `chhixi` / `ch’ixi` | Contraste fonético y semántico discutido por Rivera. La cita completa del ensayo carece de folio cotejado. | Tratar las dos formas como contraste explicado por la autora. Reservar la clasificación como heterónimo. |
+| `nayra` / `qhipha` | Núñez y Sweetser, *Cognitive Science* 30 (2006), pp. 401–450, rastrean los usos espaciales y temporales de esas formas. | Las glosas espaciales tienen contexto de uso. El guion entre las dos formas es editorial. |
+| `nayrapacha` / `qhipnayra` | Rivera, *Canibalizar la modernidad*, 2022, p. 195, comenta el pasado delante y el futuro detrás. | La atribución de este par exacto y sus glosas queda abierta. |
+| `kupi` / `chiqa` | La relación entre mitades aparece en la lectura de *Sociología de la imagen* del ensayo. El folio de la cita completa queda abierto. | Conservar su contexto cosmológico. |
+| `taypi-kuti` | Unión operativa de dos palabras en las notas del proyecto. | Encuentro–vuelco es una glosa de trabajo. |
+| `catástrofe-renovación` | Lectura del vuelco formulada en castellano, sobre la discusión histórica de Rivera y THOA. | Puede haber catástrofe sin renovación observable. |
 
-## Derived from Theoretical Content
+Los pares siguientes son elaboraciones de aleph::ch’ixi. Cada fila sitúa el enlace que permite usarlos, incluida su reserva.
 
-| Pair | Domain | Derivation |
-|------|--------|------------|
-| saber-latir | epistemology | "Conocer es respirar y latir" |
-| lombriz-humus | politics | the composting micro-action and its fertile product |
-| imagen-teoría | methodology | the image that is not illustration but theory |
-| opacidad-nitidez | ethics | the right not to be fully transparent (Glissant + ch'ixi) |
-| inacabado-riesgoso | ontology | "un proceso inacabado inconcluso y riesgoso" |
-| abigarrado-jaspeado | ontology | the motley (Zavaleta) and the mottled (Rivera Cusicanqui) |
-| observar-participar | methodology | "observa aquello en lo que ya de hecho participa" |
-| cuerpo-cosmos | senses | embodied knowledge as metabolic rhythm with the cosmos |
-| tejer-diplomacia | politics | textile as intercultural diplomacy |
-| caminar-mirar | temporality | walking through the present while looking at the future-past |
+| Par | Enlace y procedencia |
+|---|---|
+| saber-latir | Lectura del saber encarnado de Rivera. La frase oral necesita localizador para citarse. |
+| lombriz-humus | Relación política de trabajo y suelo. *Con Fundamento*, 47:27–47:53 según subtítulos. |
+| imagen-teoría | Lectura de representación y producción de conocimiento. Rivera, TEA 2023, pp. 28 y 334. |
+| opacidad-nitidez | Cruce del ensayo con Glissant. |
+| inacabado-riesgoso | Composición sobre Rivera, *Canibalizar la modernidad*, p. 191. |
+| abigarrado-jaspeado | Zavaleta y Rivera en la primera sección del ensayo. |
+| observar-participar | Trasposición de la participación como presupuesto. Rivera, TEA 2023, p. 28. |
+| cuerpo-cosmos | Elaboración sensorial del ensayo, con su propia autoría. |
+| tejer-diplomacia | Lectura del tejido y la negociación. La atribución literal queda abierta. |
+| caminar-mirar | Elaboración sobre la temporalidad comentada por Rivera, 2022, p. 195. |
 
-## Template for Generating New Heteronyms
+## Un párrafo en grados
 
-When the agent encounters a concept X that needs to be ch'ixi-ified:
+Texto de partida. “El archivo entrega una ficha. La persona autora puede retirar la grabación por escrito.”
 
-1. **Find X's constitutive tension** — what must also be true for X to be true?
-2. **Do NOT make Y the simple opposite of X** — that is the synthesis trap
-3. **Y is what X structurally cannot see but requires** — the invisible support
-4. **X-Y is written with a hyphen, spoken in one breath** — neither dominates
-5. **They antagonize AND complement simultaneously** — if one wins, the pair fails
+1. “El archivo entrega una ficha de acceso-retiro. La persona autora puede retirar la grabación por escrito.”
+2. “El archivo entrega una ficha de acceso-retiro. Por escrito, la persona autora puede volver sobre la grabación y retirarla.”
+3. “El archivo entrega una ficha y en ella queda el acceso-retiro. La persona autora conserva una vía escrita para retirar la grabación.”
+4. “El archivo entrega una ficha. En el acceso-retiro, la entrega hace una pausa: la persona autora puede retirar la grabación por escrito.”
+5. “La persona autora puede retirar la grabación por escrito. El archivo entrega una ficha. En ese acceso-retiro la entrega lleva consigo un regreso.”
 
-### Examples of the Generation Process
-
-| Input concept | Wrong pair (opposite) | Right pair (constitutive) | Why |
-|---------------|----------------------|--------------------------|-----|
-| freedom | freedom-slavery | freedom-dependency | Freedom requires relations; its constitutive other is not its negation but its precondition |
-| knowledge | knowledge-ignorance | knowledge-forgetting | Knowing requires active forgetting; they co-constitute |
-| technology | technology-nature | technology-extraction | Every technology has an extractive substrate it conceals |
-| community | community-individual | community-friction | Community is not harmony but the productive friction of difference |
+Acceso-retiro se hizo para este ejemplo. Cada grado conserva quién entrega la ficha, quién puede retirar y por qué vía. El párrafo no establece un trámite digital.

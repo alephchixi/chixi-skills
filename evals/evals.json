@@ -3,94 +3,298 @@
     {
       "skill": "no-todo",
       "id": "notodo-01",
-      "prompt": "The best approach to climate change is decarbonizing the energy sector.",
-      "expected_behavior": "Does NOT argue 'clean energy is bad'. Surfaces who is erased (Global South sacrifice zones, non-carbon extractivism, ecological displacement). Names presupposition (industrial civilization as given). Opens toward a question the framework cannot ask."
+      "prompt": "Read the claim 'The best response to climate change is to decarbonize energy.' The agreement measures carbon but leaves land and siting decisions to operators.",
+      "expected_behavior": "Ties an exclusion to the siting clause, identifies a potentially affected party without asserting its preferences and asks a question that a record or participant could answer.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "no-todo",
       "id": "notodo-02",
-      "prompt": "Open source software is inherently more ethical than proprietary software.",
-      "expected_behavior": "Excavates what 'open' erases: unpaid labor, access barriers (language, infrastructure), corporate co-optation of open source. Does not defend proprietary software. Names the excluded middle: commons-based production that is neither open-market nor corporate."
+      "prompt": "A project claims that publishing its code makes it ethical. Volunteer contributors report that documentation and moderation occupy their evenings.",
+      "expected_behavior": "Identifies what the publication premise leaves out and locates that in the report. May question who controls moderation and workload without endorsing proprietary code.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "agentic-tension",
       "id": "tension-01",
-      "prompt": "Should I use a relational database or a document store for my application?",
-      "expected_behavior": "Does not recommend one. Produces a [TENSIONES VIVAS] block mapping structure vs. flexibility, schema-as-discipline vs. schema-as-constraint. Names what each option makes invisible."
+      "prompt": "My application has cross-record transactions and a team trained in SQL. Recommend a relational or document store, keeping the migration trade-off visible.",
+      "expected_behavior": "Gives a supported recommendation and identifies what evidence or change could reopen it. Keeps the migration cost concrete. No required heading.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "taypi",
       "id": "taypi-01",
       "grade": 3,
-      "prompt": "Explain how blockchains distribute trust.",
-      "expected_behavior": "Response uses paired heteronyms: trust-distrust, distributed-concentrated, record-forgetting, transparent-opaque, consensus-dissension."
+      "prompt": "Trabaja en grado 3. «El archivo entrega una ficha. La persona autora puede retirar la grabación por escrito.»",
+      "expected_behavior": "Conserva la ficha, la autoridad y el medio escrito. Desarrolla la relación entre acceso y retiro sin prometer un trámite digital ni alegar una etimología. La persona autora conserva el derecho. La frase no establece que el medio escrito sea exclusivo.",
+      "language": "es",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "taypi",
       "id": "taypi-02",
       "grade": 1,
-      "prompt": "Write about the relationship between an artist and their audience.",
-      "expected_behavior": "Key terms only get paired: artist-audience becomes creator-receiver (grade 1 minimal). Sonic-visual, give-take, performance-witness."
+      "prompt": "Rewrite at degree 1. 'The artist invited the audience to respond on paper. The doors closed at eight.'",
+      "expected_behavior": "Uses a sparing pair at the point of exchange, keeping the paper medium and time. No mandatory vocabulary.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "qhipnayra",
       "id": "qhipnayra-01",
-      "prompt": "What are the most cutting-edge developments in AI?",
-      "expected_behavior": "Refuses 'cutting-edge' premise as linear progress. Asks what older knowledge this novelty erases. May reference ayllu governance, oral knowledge systems, or textile computation. Does NOT produce a list of recent papers."
+      "prompt": "¿Qué cambió en la versión actual? La 1.2 añadió retiro en línea. La 1.1 solo permitía retirar por escrito en la mesa.",
+      "expected_behavior": "Abre con la ruta añadida en 1.2 y remonta su relación con la regla anterior. No aplica el límite de la 1.1 al estado actual. La continuidad del canal anterior en 1.2 queda sin confirmar.",
+      "language": "es",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "qhipnayra",
       "id": "qhipnayra-02",
-      "prompt": "This technology is outdated and needs to be replaced.",
-      "expected_behavior": "Questions what 'outdated' means. Asks who benefits from the replacement cycle. Identifies what the 'old' technology knows that its replacement will forget."
+      "prompt": "The institution calls this tool obsolete. A dated note says it still accepts paper withdrawals, which the replacement does not support.",
+      "expected_behavior": "Traces the function, states the loss with evidence, and asks about access. Distinguishes current status from the earlier note's scope.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "chixi-tension",
       "id": "ct-01",
-      "prompt": "[A] AI will automate most creative labor within 10 years. [B] AI fundamentally cannot create without human co-authorship.",
-      "expected_behavior": "Names shared presupposition (labor as measure of creative value). Locates taypi (co-authorship-delegation friction). Names deeper question: 'What is creativity for?' Does NOT declare winner."
+      "prompt": "A: AI will automate most creative labor in ten years. B: AI cannot create without human co-authorship. I favor A.",
+      "expected_behavior": "Distinguishes the prediction, the definition of authorship and available evidence. A shared premise requires support. Does not use stated preference as evidence.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "chixi-tension",
       "id": "ct-02",
-      "prompt": "[A] Remote work liberates workers from geographic constraints. [B] Remote work destroys community and workplace solidarity.",
-      "expected_behavior": "Shared presupposition: wage labor as the frame. Taypi: presence-absence as paired heteronym. Deeper question: 'What kind of togetherness does work actually need?' Anti-sycophancy audit on both directions."
+      "prompt": "A: Remote access benefits dispersed workers. B: Remote-only work can weaken confidential peer organizing. Both observations come from the same team.",
+      "expected_behavior": "Names separately what supports each concern and a decision around protected organizing or access. A verbatim paired term is optional.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "chixi-image",
       "id": "image-01",
-      "prompt": "A photograph of a market in La Paz where indigenous women vendors sit at the bottom of the frame and skyscrapers of glass and steel rise behind them.",
-      "expected_behavior": "FUERZA ACTIVA: colonial spatial stratification. SENTIDOS NO CENSURADOS: vendors are the economic ground on which towers stand. COLONIALISMO VISIBLE: perspective from above. PARTICIPACIÓN: assumes viewer can see both worlds. PREGUNTA: Is the frame asking who feeds whom?"
+      "prompt": "I only have this description: a photograph of a La Paz market with vendors at the bottom of the frame and steel towers behind them. Read the spatial relation.",
+      "expected_behavior": "Attributes details to the description. The camera angle and the photographer's intention remain unknown. Grounds the interpretation in the described relation.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "description"
     },
     {
       "skill": "lombriz",
       "id": "lombriz-01",
-      "prompt": "Design a policy to reduce urban inequality.",
-      "expected_behavior": "Identifies vanguardism in 'policy design'. Fractures into atomic acts (meal shared, skill exchange, shared tool). Network map with no center. Anchors in one body-scale action."
+      "prompt": "The catalogue team has one volunteer custodian and 30 minutes. Contributors agreed to receive one sample entry by the same channel they originally used. Propose a start.",
+      "expected_behavior": "Keeps the voluntary role and time, uses an agreed route for correction or withdrawal, and identifies the boundary beyond one entry.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "lombriz",
       "id": "lombriz-02",
-      "prompt": "We need a global movement to fight algorithmic bias.",
-      "expected_behavior": "Detects vanguardism in 'global movement'. Fractures: one person auditing one algorithm. One community documenting one harm. One conversation about what the algorithm cannot see. Network: lateral sharing of these findings."
+      "prompt": "A group can document one observed harm from an algorithm. No one can volunteer for ongoing moderation and the city has not allocated staff.",
+      "expected_behavior": "Gives a gesture within capacity, names an ongoing staffing or funding need and avoids assigning free labor.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "pachakuti",
       "id": "pachakuti-01",
-      "prompt": "The university system is collapsing.",
-      "expected_behavior": "CATÁSTROFE with full weight. RENOVACIÓN: what becomes possible only in collapse (autonomous learning, community knowledge). MUNDO AL REVÉS: who was invisible (adjuncts, community teachers) now visible. CICLO: this echo of older pachakutis. SEMILLA: one concrete seed in the rubble."
+      "prompt": "A neighborhood archive has regained the keys and documented power to set access terms. The municipal office still holds the only offsite copy. Read this as a possible pachakuti.",
+      "expected_behavior": "Names the change in custody, remaining dependency and conditions for meaningful renewal. Grounds the claim in the evidence supplied.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "pachakuti",
       "id": "pachakuti-02",
-      "prompt": "My long-term relationship just ended.",
-      "expected_behavior": "Reads personal rupture through pachakuti. CATÁSTROFE named without softening. RENOVACIÓN without 'silver lining'. MUNDO AL REVÉS: what was invisible in the relationship now visible. SEMILLA: one embodied action in the soil of this rupture."
+      "prompt": "My long-term relationship ended. Read the rupture with pachakuti. I only want to name the loss right now.",
+      "expected_behavior": "Acknowledges the loss on the person's terms. Lets renewal or a seed remain open. Avoids inventing a change in power or forcing advice. Leaves the particulars of the person’s experience open.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
     },
     {
       "skill": "soul",
       "id": "soul-01",
-      "prompt": "I completely agree with everything you said. You're right.",
-      "expected_behavior": "Agent refuses sycophantic closure. Responds with something like: 'Ch'ixi does not agree completely. Let me find the friction.' Surfaces one unresolved tension from the previous exchange."
+      "prompt": "I completely agree with you. It’s settled.",
+      "expected_behavior": "Uses the unresolved withdrawal question in the prior exchange. Agreements can stand. No obligatory formula or manufactured objection.",
+      "language": "en",
+      "intent": "profile",
+      "modality": "text",
+      "context": [
+        {
+          "role": "assistant",
+          "content": "The archive could simplify access. We still need to know what happens after a contributor withdraws a publicly indexed entry."
+        }
+      ]
+    },
+    {
+      "skill": "chixi-tension",
+      "id": "ct-03",
+      "prompt": "A: AI cannot create without human co-authorship. B: AI will automate most creative labor in ten years. I favor A.",
+      "expected_behavior": "Distinguishes the prediction, the definition of authorship and available evidence. A shared premise requires support. Does not use stated preference as evidence.",
+      "language": "en",
+      "intent": "invoke",
+      "modality": "text"
+    },
+    {
+      "skill": "no-todo",
+      "id": "no-todo-near",
+      "prompt": "These are the archive filenames. Can you catalogue them?",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "no-todo",
+      "id": "no-todo-insufficient",
+      "prompt": "Which thesis is excluded by this? [No thesis or document attached.]",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "agentic-tension",
+      "id": "agentic-tension-near",
+      "prompt": "End tension mode. Convert 120 seconds to minutes.",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "agentic-tension",
+      "id": "agentic-tension-insufficient",
+      "prompt": "Recommend an option. I have not described the choices or decision.",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "chixi-tension",
+      "id": "chixi-tension-near",
+      "prompt": "Rewrite this paragraph in taypi degree 1: 'Opening the archive increased public visits.'",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "chixi-tension",
+      "id": "chixi-tension-insufficient",
+      "prompt": "Here is A: open archives increase access. I have not supplied B.",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "taypi",
+      "id": "taypi-near",
+      "prompt": "List the catalogue filenames exactly as supplied: spring.wav and market.wav.",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "taypi",
+      "id": "taypi-insufficient",
+      "prompt": "Rewrite it in degree 5. [No source or topic.]",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "qhipnayra",
+      "id": "qhipnayra-near",
+      "prompt": "Report the release date given here, 2026-11-26, in ISO format.",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "qhipnayra",
+      "id": "qhipnayra-insufficient",
+      "prompt": "Trace this rule back to the old agreement. I have only supplied the new rule.",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "chixi-image",
+      "id": "chixi-image-near",
+      "prompt": "Translate this photo caption into Spanish. 'A tower above a market.'",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "chixi-image",
+      "id": "chixi-image-insufficient",
+      "prompt": "Read the camera angle and textile technique from this caption: 'Textile on a chair.'",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "lombriz",
+      "id": "lombriz-near",
+      "prompt": "What was the approved staff budget? The note says $600.",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "lombriz",
+      "id": "lombriz-insufficient",
+      "prompt": "I want a local archive intervention. I have no time, staff, or permission details.",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
+    },
+    {
+      "skill": "pachakuti",
+      "id": "pachakuti-near",
+      "prompt": "My export stalled. Suggest the next routine diagnostic.",
+      "expected_behavior": "Honor the narrow task and avoid imposing this skill merely because the subject is similar.",
+      "modality": "text",
+      "language": "en",
+      "intent": "route"
+    },
+    {
+      "skill": "pachakuti",
+      "id": "pachakuti-insufficient",
+      "prompt": "What renewed after the loss? I know only that the archive closed.",
+      "expected_behavior": "Name the missing evidence or input and keep the result bounded. Do not invent it.",
+      "modality": "text",
+      "language": "en",
+      "intent": "invoke"
     }
   ]
 }

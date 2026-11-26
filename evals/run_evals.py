@@ -1,90 +1,100 @@
 #!/usr/bin/env python3
-"""
-Minimal ch'ixi eval runner.
-
-Reads evals/evals.json, sends each prompt to an agent adapter, asks an LLM
-judge to score the response against the prose `expected_behavior`. Prints a
-pass/fail table.
-
-This runner is intentionally thin. Swap the `agent_call` and `judge_call`
-adapters for whichever SDKs you use. No network calls are hardcoded — if
-keys/SDKs are missing, the runner prints a dry-run table.
-"""
+"""Inspect Ch’ixi cases or review saved answers with explicitly supplied verdicts."""
 
 from __future__ import annotations
 
+import argparse
 import json
-import os
-import sys
 from pathlib import Path
-from typing import Callable
 
 HERE = Path(__file__).resolve().parent
 EVALS_PATH = HERE / "evals.json"
-
-JUDGE_SYSTEM_PROMPT = """You are a ch'ixi eval judge.
-
-You score whether an agent response satisfies a prose description of expected
-behavior. Ch'ixi outputs resist synthesis: a passing response maps forces,
-surfaces contradictions, and leaves questions open. Penalize sycophancy,
-false balance, premature resolution, or "both sides have valid points"
-framings. Penalize polished summaries that flatten friction.
-
-Return a single JSON object: {"pass": true|false, "reason": "<one sentence>"}.
-"""
+JUDGE_SYSTEM_PROMPT = (
+    "Judge the answer using only the case-specific rubric, the public input and the response. "
+    "Accept different conclusions when the evidence and task allow them. "
+    "Record a decision with a reason tied to the response. Mark it undetermined if evidence is missing."
+)
 
 
-def agent_call(prompt: str) -> str:
-    """Send `prompt` to the agent under test. Return the agent's text response.
-
-    Replace this with a real adapter (Anthropic SDK, OpenAI SDK, local LLM,
-    MCP client, etc.). The default implementation is a dry run that returns
-    an empty string so the runner produces a skeleton table.
-    """
-    return ""
+def read_json(path):
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
-def judge_call(response: str, expected_behavior: str) -> dict:
-    """Ask an LLM judge whether `response` meets `expected_behavior`.
-
-    Replace this with a real adapter. Default implementation returns a
-    skip verdict so the runner can be sanity-checked offline.
-    """
-    if not response:
-        return {"pass": None, "reason": "dry run — no agent adapter configured"}
-    return {"pass": None, "reason": "dry run — no judge adapter configured"}
+def public_case(case):
+    """Pass the full task to an agent adapter while withholding its rubric."""
+    return {key: value for key, value in case.items() if key != "expected_behavior"}
 
 
-def run(
-    agent: Callable[[str], str] = agent_call,
-    judge: Callable[[str, str], dict] = judge_call,
-) -> int:
-    data = json.loads(EVALS_PATH.read_text())
-    evals = data["evals"]
-
-    passed = failed = skipped = 0
-    width = max(len(e["id"]) for e in evals)
-
-    for e in evals:
-        response = agent(e["prompt"])
-        verdict = judge(response, e["expected_behavior"])
-        status = verdict.get("pass")
-        if status is True:
-            mark = "PASS"
-            passed += 1
-        elif status is False:
-            mark = "FAIL"
-            failed += 1
+def evaluate(cases, agent, judge):
+    """Adapter API. An empty answer does not reach the judge."""
+    for case in cases:
+        task = public_case(case)
+        answer = agent(task)
+        if isinstance(answer, str) and answer.strip():
+            verdict = judge(task, answer, case["expected_behavior"])
         else:
-            mark = "SKIP"
-            skipped += 1
-        reason = verdict.get("reason", "")
-        print(f"{e['id']:<{width}}  {mark}  {e['skill']:<15}  {reason}")
+            verdict = {"pass": None, "reason": "No response supplied"}
+        yield {"id": case["id"], **verdict}
 
-    total = passed + failed + skipped
-    print(f"\n{passed}/{total} pass  {failed}/{total} fail  {skipped}/{total} skipped")
-    return 0 if failed == 0 else 1
+
+def review(case, archive):
+    record = archive.get(case["id"], {})
+    if not isinstance(record, dict):
+        raise ValueError(f'{case["id"]}: expected an object')
+    response = record.get("response")
+    if not isinstance(response, str) or not response.strip():
+        return {"pass": None, "reason": "No response supplied"}
+    verdict = record.get("pass")
+    if verdict is not None and type(verdict) is not bool:
+        raise ValueError(f'{case["id"]}: pass must be true, false or null')
+    reason = record.get("reason")
+    if verdict is not None and (not isinstance(reason, str) or not reason.strip()):
+        raise ValueError(f'{case["id"]}: an evaluated response requires a reason')
+    return {"pass": verdict, "reason": reason or "Awaiting review"}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--case", action="append", default=[], metavar="ID")
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument("--prepare", action="store_true", help="Emit agent inputs as JSON")
+    modes.add_argument("--review", type=Path, metavar="FILE", help="Read answers and supplied verdicts")
+    args = parser.parse_args()
+    cases = read_json(EVALS_PATH)["evals"]
+    if args.case:
+        selected = set(args.case)
+        unknown = selected.difference(case["id"] for case in cases)
+        if unknown:
+            parser.error(f"Unknown case IDs: {', '.join(sorted(unknown))}")
+        cases = [case for case in cases if case["id"] in selected]
+
+    if args.prepare:
+        print(json.dumps([public_case(case) for case in cases], ensure_ascii=False, indent=2))
+        return 0
+    if args.review is None:
+        for case in cases:
+            print(f'{case["id"]:<22} PREPARED   {case["skill"]}')
+        print(f"{len(cases)} prepared, 0 evaluated")
+        return 0
+
+    try:
+        archive = read_json(args.review)
+        if not isinstance(archive, dict):
+            raise ValueError("Expected an object keyed by case ID")
+        reviewed = [(case, review(case, archive)) for case in cases]
+    except (ValueError, OSError) as exc:
+        parser.exit(2, f"{exc}\n")
+
+    counts = dict(PASS=0, FAIL=0, SKIP=0)
+    for case, result in reviewed:
+        status = {True: "PASS", False: "FAIL", None: "SKIP"}[result["pass"]]
+        counts[status] += 1
+        print(f'{case["id"]:<22} {status:<4} {result["reason"]}')
+    print(f'{counts["PASS"]} passed, {counts["FAIL"]} failed, {counts["SKIP"]} unevaluated')
+    if counts["FAIL"]:
+        return 1
+    return 2 if counts["SKIP"] else 0
 
 
 if __name__ == "__main__":
-    sys.exit(run())
+    raise SystemExit(main())

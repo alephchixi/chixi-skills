@@ -5,7 +5,7 @@ This repository is **dual-licensed**:
 | Scope | License | File |
 |-------|---------|------|
 | Theoretical prose: `THEORY.md`, `README.md`, `ARCHITECTURE.md`, `LICENSE-NOTES.md` | CC BY-NC-SA 4.0 | `LICENSE` |
-| Skill files, YAML, JSON, and code: everything under `skills/`, `evals/`, `soul.yaml` | MIT | `LICENSE-CODE` |
+| Skill files, YAML, JSON, and code: everything under `skills/`, `evals/`, `soul.yaml` and `install_skills.py` | MIT | `LICENSE-CODE` |
 
 The split exists because CC BY-NC-SA is well-suited for the essay and documentation but
 restricts reuse of the operational artifacts (skills, eval runner) by institutions that
@@ -31,8 +31,7 @@ Does not allow:
 
 ## Attribution
 
-When reusing any part of this repository, credit **Silvia Rivera Cusicanqui** as the
-theoretical source and link back to this repository.
+Credit Rivera Cusicanqui for the cited scholarship and eme / aleph::ch’ixi for the transpositions. The essay and skills identify further contributions by work and page. This repository’s license grants apply to the project material covered by each notice. Check the source and applicable permission before redistributing third-party quotations, translations or images. The operational instructions cite and paraphrase their source passages.
 
 ## Commercial licensing
 

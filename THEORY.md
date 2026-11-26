@@ -1,6 +1,8 @@
-# Ch'ixinakax utxiwa: Arquitectura ontológica, epistemológica, política y sensorial de la condición ch'ixi a partir desde la obra de Silvia Rivera Cusicanqui
+# Ch'ixinakax utxiwa: Arquitectura ontológica, epistemológica, política y sensorial de la condición ch'ixi a partir de la obra de Silvia Rivera Cusicanqui
 
 ---
+
+Edición de trabajo de eme / aleph::ch’ixi. La formulación de Rivera llega también por la palabra del escultor aymara Víctor Zapana, a quien ella acredita en *Canibalizar la modernidad* (2022, pp. 190–191). Las decisiones de método y sus cruces pertenecen a este ensayo.
 
 ## 0. Premisas
 
@@ -32,7 +34,7 @@ Enrique Dussel lee la figura del mestizo como trauma: "children of nothingness",
 
 ### 1.5 Dialéctica sin síntesis
 
-El gesto filosófico nuclear de lo ch'ixi es el rechazo al retorno hegeliano a lo Uno. Rivera Cusicanqui propone "un modo de no buscar la síntesis, de trabajar con y en la contradicción, de desarrollarla, en la medida en que la síntesis es el anhelo del retorno a lo Uno" (Rivera Cusicanqui, 2022, pg. 189). La contradicción no se supera — opera: "no como un estado transitorio que hay que superar (como en la dialéctica), sino como una fuerza explosiva y contenciosa, que potencia nuestra capacidad de pensamiento y acción" (Rivera Cusicanqui, 2022, pg. 189).
+El gesto filosófico nuclear de lo ch'ixi es el rechazo al retorno hegeliano a lo Uno. Rivera Cusicanqui propone "un modo de no buscar la síntesis, de trabajar con y en la contradicción, de desarrollarla, en la medida en que la síntesis es el anhelo del retorno a lo Uno" (Rivera Cusicanqui, 2022, pg. 193). La contradicción no se supera — opera: "no como un estado transitorio que hay que superar (como en la dialéctica), sino como una fuerza explosiva y contenciosa, que potencia nuestra capacidad de pensamiento y acción" (Rivera Cusicanqui, 2022, pg. 189).
 
 Fernando Zalamea traza una operación análoga desde la filosofía de las matemáticas: una razón transversal que se mueve "a través de tránsitos pluridireccionales" (Zalamea, 2009, pg. 274), rechazando los dualismos rígidos y habitando la frontera como espacio productivo, sin forzar resolución estéril (Zalamea, 2009, pg. 285).
 
@@ -40,7 +42,7 @@ Fernando Zalamea traza una operación análoga desde la filosofía de las matem�
 
 ### 2.1 Sociología de la imagen: observar aquello en lo que ya se participa
 
-Rivera Cusicanqui distingue con rigor su metodología de la antropología visual convencional: Dice que esta última "se funda en la observación participante, donde el/la investigador/a participa con el fin de observar. La sociología de la imagen, en cambio, observa aquello en lo que ya de hecho participa; la participación no es un instrumento al servicio de la observación, sino su presupuesto" (Rivera Cusicanqui, 2023, pg. 313). El objeto de análisis se amplía radicalmente: "la sociología de la imagen considera a todas las prácticas de representación como su foco de atención; se dirige a la totalidad del mundo visual, desde la publicidad, la fotografía de prensa, el archivo de imágenes, el arte pictórico, el dibujo y el textil" (Rivera Cusicanqui, 2023, pg. 314). La apuesta epistémica es desmontar la razón colonial desde adentro: "Hacer de la imagen un objeto de análisis, usar la imagen como práctica de comunicación horizontal, sentir que nuestro «ojo intruso» puede volverse un aliado en la producción de conocimiento [...] son todas ellas prácticas de una sociología que va desmantelando los supuestos de la razón ilustrada, de la razón colonial" (Rivera Cusicanqui, 2023, pg. 321). Las imágenes no ilustran textos: revelan "sentidos no censurados por la lengua oficial" (Rivera Cusicanqui, 2023).
+Rivera Cusicanqui distingue con rigor su metodología de la antropología visual convencional: Dice que esta última "se funda en la observación participante, donde el/la investigador/a participa con el fin de observar. La sociología de la imagen, en cambio, observa aquello en lo que ya de hecho participa; la participación no es un instrumento al servicio de la observación, sino su presupuesto" (Rivera Cusicanqui, 2023, pg. 28). El objeto de análisis se amplía radicalmente: "la sociología de la imagen considera a todas las prácticas de representación como su foco de atención; se dirige a la totalidad del mundo visual, desde la publicidad, la fotografía de prensa, el archivo de imágenes, el arte pictórico, el dibujo y el textil" (Rivera Cusicanqui, 2023, pg. 28). La apuesta epistémica es desmontar la razón colonial desde adentro: "Hacer de la imagen un objeto de análisis, usar la imagen como práctica de comunicación horizontal, sentir que nuestro «ojo intruso» puede volverse un aliado en la producción de conocimiento [...] son todas ellas prácticas de una sociología que va desmantelando los supuestos de la razón ilustrada, de la razón colonial" (Rivera Cusicanqui, 2023, pg. 334). Las imágenes no ilustran textos: revelan "sentidos no censurados por la lengua oficial" (Rivera Cusicanqui, 2023).
 
 ### 2.2 Historia oral como ruptura epistémica: el THOA
 
@@ -54,7 +56,7 @@ El aforismo aymara opera como brújula epistemológica y política: "qhipnayr u�
 
 ### 2.4 Heterónimos pareados: la frontera resbalosa del lenguaje
 
-Las lenguas andinas contienen estructuras que encarnan filosófica y fonéticamente la condición ch'ixi. Rivera Cusicanqui las llama heterónimos pareados — pares de palabras conectadas pero divergentes que organizan el pensamiento no como binarios nítidos sino como "frontera resbalosa" (Rivera Cusicanqui, 2023). La fonética misma porta diferencias ontológicas: "Hay muchas formas de decir cosas en aymara que al hacer un leve giro de pronunciación o fonética llegan a decir otra cosa. Y uno de ellos es la diferencia entre el chhixi aspirado y el ch'ixi explosivo. Chhixi está asociado a lo aguanoso, a lo inconsistente [...] ch'ixi designa [...] un gris jaspeado" (Rivera Cusicanqui, 2023). Un mínimo desplazamiento fonético separa lo inconsistente de lo potente. El ejemplo que condensa movimiento, memoria y música: "Canto y camino son en qhechumara heterónimos pareados: takiy-thakhi. Aluden a una territorialidad sonora, que se desplaza por el espacio-tiempo" (Rivera Cusicanqui, 2023, pg. 262).
+Las lenguas andinas contienen estructuras que encarnan filosófica y fonéticamente la condición ch'ixi. Rivera Cusicanqui las llama heterónimos pareados — pares de palabras conectadas pero divergentes que organizan el pensamiento no como binarios nítidos sino como "frontera resbalosa" (Rivera Cusicanqui, 2023). La fonética misma porta diferencias ontológicas: "Hay muchas formas de decir cosas en aymara que al hacer un leve giro de pronunciación o fonética llegan a decir otra cosa. Y uno de ellos es la diferencia entre el chhixi aspirado y el ch'ixi explosivo. Chhixi está asociado a lo aguanoso, a lo inconsistente [...] ch'ixi designa [...] un gris jaspeado" (Rivera Cusicanqui, 2023). Un mínimo desplazamiento fonético separa lo inconsistente de lo potente. El ejemplo que condensa movimiento, memoria y música: "Canto y camino son en qhechumara heterónimos pareados: takiy-thakhi. Aluden a una territorialidad sonora, que se desplaza por el espacio-tiempo" (Rivera Cusicanqui, 2023, pg. 247).
 
 ### 2.5 Contra la política de la etiqueta: Mignolo y el neologismo de moda
 
@@ -108,7 +110,7 @@ El tejido andino no es artesanía ornamental. Rivera Cusicanqui lo eleva a siste
 
 ### 4.3 Territorialidad sonora: takiy-thakhi
 
-Los heterónimos pareados revelan la dimensión sónica del conocimiento ch'ixi. No hay territorio sin canto: "Canto y camino son en qhechumara heterónimos pareados: takiy-thakhi. Aluden a una territorialidad sonora, que se desplaza por el espacio-tiempo" (Rivera Cusicanqui, 2023, pg. 262). El canto no representa el territorio — lo produce. El camino no se recorre en silencio — se canta. El pensamiento ch'ixi es, en su estructura profunda, un pensamiento sónico-ambulatorio: opera "de un modo oblicuo y ensartado" (Rivera Cusicanqui, 2023), sin centros fijos ni rutas predeterminadas. El takiy-thakhi es la forma sonora de caminar hacia atrás mirando hacia adelante.
+Los heterónimos pareados revelan la dimensión sónica del conocimiento ch'ixi. No hay territorio sin canto: "Canto y camino son en qhechumara heterónimos pareados: takiy-thakhi. Aluden a una territorialidad sonora, que se desplaza por el espacio-tiempo" (Rivera Cusicanqui, 2023, pg. 247). El canto no representa el territorio — lo produce. El camino no se recorre en silencio — se canta. El pensamiento ch'ixi es, en su estructura profunda, un pensamiento sónico-ambulatorio: opera "de un modo oblicuo y ensartado" (Rivera Cusicanqui, 2023), sin centros fijos ni rutas predeterminadas. El takiy-thakhi es la forma sonora de caminar hacia atrás mirando hacia adelante.
 
 ## 5. CODA — Ch'ixinakax utxiwa
 
@@ -173,11 +175,13 @@ Rivera Cusicanqui, S. (s.f.). *Conferencia magistral — Hacia una práctica des
 ---
 ---
 
-# Ch'ixinakax utxiwa: A Numbered Architecture of the Ch'ixi Condition
+# Ch'ixinakax utxiwa: An Ontological, Epistemological, Political and Sensory Architecture of the Ch’ixi Condition
 
 ## An Ontological, Epistemological, Political and Sensory Cartography from the Work of Silvia Rivera Cusicanqui
 
 ---
+
+Working edition by eme / aleph::ch’ixi. Rivera credits the Aymara sculptor Víctor Zapana for teaching her the word (*Canibalizar la modernidad*, 2022, pp. 190–191). The method and its encounters with other authors belong to this essay. The English text carries forward the repository’s working translations from Spanish, with translator attribution still to establish.
 
 ## 0. Premises
 
@@ -211,7 +215,7 @@ Enrique Dussel reads the mestizo figure as trauma: "children of nothingness," re
 
 ### 1.5 Dialectics without synthesis
 
-The nuclear philosophical gesture of ch'ixi is the rejection of the Hegelian return to the One. Rivera Cusicanqui proposes "a way of not seeking synthesis, of working with and within contradiction, of developing it, insofar as synthesis is the longing for a return to the One" (Rivera Cusicanqui, 2022, p. 189). Contradiction does not get overcome — it operates: "not as a transitory state to be overcome (as in dialectics), but as an explosive and contentious force, which potentiates our capacity for thought and action" (Rivera Cusicanqui, 2022, p. 189).
+The nuclear philosophical gesture of ch'ixi is the rejection of the Hegelian return to the One. Rivera Cusicanqui proposes "a way of not seeking synthesis, of working with and within contradiction, of developing it, insofar as synthesis is the longing for a return to the One" (Rivera Cusicanqui, 2022, p. 193). Contradiction does not get overcome — it operates: "not as a transitory state to be overcome (as in dialectics), but as an explosive and contentious force, which potentiates our capacity for thought and action" (Rivera Cusicanqui, 2022, p. 189).
 
 Fernando Zalamea traces an analogous operation from the philosophy of mathematics: a transversal reason that moves "through pluridirectional transits" (Zalamea, 2009, p. 274), rejecting rigid dualisms and inhabiting the border as a productive space, without forcing sterile resolution (Zalamea, 2009, p. 285).
 
@@ -221,7 +225,7 @@ Fernando Zalamea traces an analogous operation from the philosophy of mathematic
 
 ### 2.1 Sociology of the image: observing what one already participates in
 
-Rivera Cusicanqui distinguishes her methodology rigorously from conventional visual anthropology: "Visual anthropology is founded on participant observation, where the researcher participates in order to observe. The sociology of the image, on the other hand, observes that in which it already in fact participates; participation is not an instrument in service of observation, but its presupposition" (Rivera Cusicanqui, 2023, p. 313). The object of analysis expands radically: "the sociology of the image considers all practices of representation as its focus; it turns to the totality of the visual world, from advertising, photojournalism, image archives, pictorial art, drawing, and textile" (Rivera Cusicanqui, 2023, p. 314). The epistemic wager is to dismantle colonial reason from within: "Making the image an object of analysis, using the image as a practice of horizontal communication, feeling that our 'intrusive eye' can become an ally in the production of knowledge [...] are all practices of a sociology that dismantles the assumptions of the reason of the Enlightenment, of colonial reason" (Rivera Cusicanqui, 2023, p. 321). Images do not illustrate texts: they reveal "meanings uncensored by official language" (Rivera Cusicanqui, 2023).
+Rivera Cusicanqui distinguishes her methodology rigorously from conventional visual anthropology: "Visual anthropology is founded on participant observation, where the researcher participates in order to observe. The sociology of the image, on the other hand, observes that in which it already in fact participates; participation is not an instrument in service of observation, but its presupposition" (Rivera Cusicanqui, 2023, p. 28). The object of analysis expands radically: "the sociology of the image considers all practices of representation as its focus; it turns to the totality of the visual world, from advertising, photojournalism, image archives, pictorial art, drawing, and textile" (Rivera Cusicanqui, 2023, p. 28). The epistemic wager is to dismantle colonial reason from within: "Making the image an object of analysis, using the image as a practice of horizontal communication, feeling that our 'intrusive eye' can become an ally in the production of knowledge [...] are all practices of a sociology that dismantles the assumptions of the reason of the Enlightenment, of colonial reason" (Rivera Cusicanqui, 2023, p. 334). Images do not illustrate texts: they reveal "meanings uncensored by official language" (Rivera Cusicanqui, 2023).
 
 ### 2.2 Oral history as epistemic rupture: the THOA
 
@@ -235,7 +239,7 @@ The Aymara aphorism operates as epistemic and political compass: "qhipnayr uñta
 
 ### 2.4 Paired heteronyms: the slippery border of language
 
-Andean languages contain structures that philosophically and phonetically embody the ch'ixi condition. Rivera Cusicanqui calls them paired heteronyms — pairs of connected yet divergent words that organize thought not as clear binaries but as a "slippery border" (Rivera Cusicanqui, 2023). Phonetics itself carries ontological differences: "There are many ways of saying things in Aymara that, with a slight turn of pronunciation or phonetics, come to mean something else. One of them is the difference between the aspirated chhixi and the plosive ch'ixi. Chhixi is associated with the watery, with the inconsistent [...] ch'ixi designates [...] a mottled grey" (Rivera Cusicanqui, 2023). A minimal phonetic shift separates the inconsistent from the powerful. The example that condenses movement, memory, and music: "Song and road are paired heteronyms in Quechumara: takiy-thakhi. They allude to a sonic territoriality, which unfolds across space-time" (Rivera Cusicanqui, 2023, p. 262).
+Andean languages contain structures that philosophically and phonetically embody the ch'ixi condition. Rivera Cusicanqui calls them paired heteronyms — pairs of connected yet divergent words that organize thought not as clear binaries but as a "slippery border" (Rivera Cusicanqui, 2023). Phonetics itself carries ontological differences: "There are many ways of saying things in Aymara that, with a slight turn of pronunciation or phonetics, come to mean something else. One of them is the difference between the aspirated chhixi and the plosive ch'ixi. Chhixi is associated with the watery, with the inconsistent [...] ch'ixi designates [...] a mottled grey" (Rivera Cusicanqui, 2023). A minimal phonetic shift separates the inconsistent from the powerful. The example that condenses movement, memory, and music: "Song and road are paired heteronyms in Quechumara: takiy-thakhi. They allude to a sonic territoriality, which unfolds across space-time" (Rivera Cusicanqui, 2023, p. 247).
 
 ### 2.5 Against the politics of the label: Mignolo and the fashionable neologism
 
@@ -291,7 +295,7 @@ Andean weaving is not ornamental craft. Rivera Cusicanqui elevates it to a compl
 
 ### 4.3 Sonic territoriality: takiy-thakhi
 
-Paired heteronyms reveal the sonic dimension of ch'ixi knowledge. There is no territory without song: "Song and road are paired heteronyms in Quechumara: takiy-thakhi. They allude to a sonic territoriality, which unfolds across space-time" (Rivera Cusicanqui, 2023, p. 262). Song does not represent territory — it produces it. The road is not traveled in silence — it is sung. Ch'ixi thought is, in its deep structure, a sonic-ambulatory thought: it operates "in an oblique and threaded manner" (Rivera Cusicanqui, 2023), without fixed centers or predetermined routes. Takiy-thakhi is the sonic form of walking backwards while looking forward.
+Paired heteronyms reveal the sonic dimension of ch'ixi knowledge. There is no territory without song: "Song and road are paired heteronyms in Quechumara: takiy-thakhi. They allude to a sonic territoriality, which unfolds across space-time" (Rivera Cusicanqui, 2023, p. 247). Song does not represent territory — it produces it. The road is not traveled in silence — it is sung. Ch'ixi thought is, in its deep structure, a sonic-ambulatory thought: it operates "in an oblique and threaded manner" (Rivera Cusicanqui, 2023), without fixed centers or predetermined routes. Takiy-thakhi is the sonic form of walking backwards while looking forward.
 
 ---
 
@@ -347,7 +351,7 @@ Rivera Cusicanqui, S. (n.d.). *Conversa del Mundo* [Video]. YouTube, ALICE CES c
 
 Rivera Cusicanqui, S. (n.d.). Conference in seminar *Colonialismo, identidad y Género* [Video]. YouTube, Feminismos Comunitarios, Campesinos y Populares channel.
 
-Rivera Cusicanqui, S. (n.d.). *Con Fundamento Podcast* [Podcast]. YouTube, Jorge Eduardo Londoño Ulloa channel.
+Rivera Cusicanqui, S. (2024, 27 June). *Con Fundamento Podcast* [Podcast]. YouTube, Jorge Eduardo Londoño Ulloa channel.
 
 Rivera Cusicanqui, S. (n.d.). *Decolonial Learning Journey* [Video]. Ecoversities.
 
@@ -356,3 +360,7 @@ Rivera Cusicanqui, S. (n.d.). *La oralidad en contextos comunitarios* [Video]. B
 Rivera Cusicanqui, S. (n.d.). *Luchadoras* [Video]. YouTube, Rompeviento TV channel.
 
 Rivera Cusicanqui, S. (n.d.). *Conferencia magistral — Hacia una práctica descolonizadora de la historia* [Video]. YouTube, Facultad de Letras y Ciencias Humanas PUCP channel.
+
+### Edition and source notes
+
+The 2023 page references use Pensamiento TEA, edited by Roberto Gil Hernández. The 2022 page references use *Canibalizar la modernidad*, Tinta Limón. The Spanish precursor `ch-ixi-essay-es.md` and bilingual precursor `ch-ixi-essay-bilingual.md` remain separate witnesses outside this repository. The bilingual precursor carries its own editorial title. The Spanish precursor devotes its own section 4.1 to color. A later authorial reading can consider how it relates to this edition’s opening on the stone and to its sensory section. The literal oral attributions without a recording and interval, including PUCP, *Luchadoras* and the seminar on gender, remain provisional. The *Con Fundamento* interval at 47:27–47:53 was located from captions and awaits listening for exact wording.
